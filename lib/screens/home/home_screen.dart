@@ -16,7 +16,7 @@ class HomeScreen extends StatelessWidget {
           Text(
             "Dictionary App",
             style: TextStyle(
-              color: Colors.orangeAccent,
+              color: Colors.white,
               fontSize: 34,
               fontWeight: FontWeight.bold,
             ),
@@ -24,7 +24,7 @@ class HomeScreen extends StatelessWidget {
           Text(
             "Search any word with speed",
             style: TextStyle(
-              color: Colors.white,
+              color: Colors.amber,
               fontSize: 14,
             ),
           ),
@@ -53,10 +53,10 @@ class HomeScreen extends StatelessWidget {
                 cubit.getWordSearched();
               },
               style: ElevatedButton.styleFrom(
-                primary: Colors.deepOrangeAccent,
+                primary: Colors.white,
                 padding: const EdgeInsets.all(16),
               ),
-              child: Text("SEARCH"),
+              child: Text("SEARCH", style: TextStyle(color: Colors.black),),
             ),
           )
         ],
